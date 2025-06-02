@@ -2,25 +2,86 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Scroll Site</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Review Blog</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #fff;
+      color: #111;
+      margin: 0;
+      padding: 0 20px;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    header {
+      padding: 20px 0;
+      border-bottom: 1px solid #eee;
+      text-align: center;
+      font-weight: 600;
+      font-size: 24px;
+      letter-spacing: 1px;
+    }
+    nav {
+      margin: 20px 0;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 10px;
+      color: #0071e3;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    article {
+      border-bottom: 1px solid #eee;
+      padding: 20px 0;
+    }
+    article img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 12px;
+    }
+    article h2 {
+      margin: 0 0 8px;
+      font-weight: 600;
+    }
+    article p {
+      line-height: 1.5;
+      color: #333;
+    }
+    footer {
+      margin: 40px 0;
+      text-align: center;
+      color: #999;
+      font-size: 14px;
+    }
+  </style>
 </head>
 <body>
-  <section class="hero">
-    <h1>OnePlus Style Scroll</h1>
-    <p>Scroll down to see the animation</p>
-  </section>
+  <header>My Review Blog</header>
+  <nav>
+    <a href="#">Music</a>
+    <a href="#">Sports</a>
+    <a href="#">Movies</a>
+    <a href="#">Games</a>
+  </nav>
 
-  <section class="image-section">
-    <img src="images/phone.png" alt="Phone" class="slide-in">
-  </section>
+  <article>
+    <img src="album-cover.jpg" alt="Album Cover" />
+    <h2>Review: New Music Album</h2>
+    <p>Release date: June 1, 2025</p>
+    <p>This new album has some incredible tracks that blend pop and electronic music with powerful lyrics...</p>
+  </article>
 
-  <section class="features">
-    <h2>Cool Features</h2>
-    <p class="fade-in">Battery, Camera, Performance, Design</p>
-  </section>
+  <article>
+    <img src="sports-event.jpg" alt="Sports Event" />
+    <h2>Exciting Sports Event Highlights</h2>
+    <p>June 2, 2025</p>
+    <p>The championship game kept us on the edge of our seats with an amazing comeback in the last quarter...</p>
+  </article>
 
-  <script src="script.js"></script>
+  <footer>© 2025 My Review Blog</footer>
 </body>
 </html>
